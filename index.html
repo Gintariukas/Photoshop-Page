@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.fonts.com/font/microsoft-corporation/georgia/regular">
+    <title>Photoshop Template</title>
+</head>
+<body>
+
+<div class="main">
+    <!-- Black navigation bar-->
+    <div class="navback">
+        <ul class="navbar">
+            <li><a href="#">Sign Up</a> &#8739;</li>
+            <li><a href="#">Login</a> &#8739;</li>
+            <li><a href="#">RSS Feeds </a> &#8739;</li>
+            <li><a href="#">Archived News</a></li>
+        </ul>
+        <div class="icons">
+            <i class="fa fa-linkedin-square icon"></i>
+            <i class="fa fa-twitter-square icon"></i>
+            <i class="fa fa-pinterest icon"></i>
+            <i class="fa fa-google-plus-square icon"></i>
+            <i class="fa fa-wifi icon"></i>
+        </div>
+    </div>
+    <!-- White navigation bar-->
+    <div class="navback1">
+        <ul class="navbar1">
+            <li><a href="#">HOMEPAGE</a></li>
+            <li><a href="#">STYLE DEMO</a></li>
+            <li><a href="#">FULL WIDTH</a></li>
+            <li><a href="#">DROPDOWN</a></li>
+            <li><a href="#">GALERY</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">LINK TEST</a></li>
+            <li><a href="#">LOGIN LINK TEKST</a></li>
+        </ul>
+    </div>
+    <!-- The 'NobodysFool' section -->
+    <div class="nobody">
+        <h1>NobodysFool</h1>
+        <p>Free PSD Website Template</p>
+        <div class="placehold">
+            <form>
+                <button>SEARCH</button>
+                <input class="search" type="text" placeholder="Search Our Website..." name="Website">
+            </form>
+        </div>
+    </div>
+    <!-- The 'Slide show' section -->
+    <div class="secgrey">
+        <div class="lside">
+            <h1>Your title can be long and descriptive</h1>
+            <p class="size1">Cursuspenatisaccum ut curabitur nulla tellus tor ames a in curabitur pede. Idet mollisi eros dis orci
+                congue elis et curabitur.
+            </p>
+            <button class="button1">READ MORE >></button>
+        </div>
+        <!-- The Slide show -->
+        <div class="box">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="box1">
+                        <div class="text">550 x 440px</div>
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="box1">
+                        <div class="text">550 x 440px</div>
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="box1">
+                        <div class="text">550 x 440px</div>
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="box1">
+                        <div class="text">550 x 440px</div>
+                    </div>
+                </div>
+                <div class="bubbles">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+            </div>
+        </div>
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " active";
+            }
+        </script>
+    </div>
+    <!-- The 'Computer' section-->
+    <div class="secwhite">
+        <img src="Untitled-1.jpg" alt="Computers and telephones" class="picture">
+        <div class="bigone">
+            <div class="small1">
+                <div class="little1">85 x 80px</div>
+                <p class="size2">Vivamuslibero Augue</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In fringilla massa ut
+                    nisi ullamcorper pellentesque.
+                </p>
+            </div>
+            <div class="small2">
+                <div class="little1">85 x 80px</div>
+                <p class="size2">Vivamuslibero Augue</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In fringilla massa ut
+                    nisi ullamcorper pellentesque.
+                </p>
+            </div>
+            <div class="small3">
+                <div class="little1">85 x 80px</div>
+                <p class="size2">Vivamuslibero Augue</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In fringilla massa ut
+                    nisi ullamcorper pellentesque.
+                </p>
+            </div>
+            <div class="small4">
+                <div class="little1">85 x 80px</div>
+                <p class="size2">Vivamuslibero Augue</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In fringilla massa ut
+                    nisi ullamcorper pellentesque.
+                </p>
+            </div>
+            <div class="advertis">
+                <h1>Lorem ipsum dolor si amet elit !</h1>
+                <p class="size1">Why not try our dservices today, you won't regret you choice !</p>
+                <button class="button2">CONTACT US TODAY</button>
+            </div>
+        </div>
+    </div>
+    <!-- The 'Info' section -->
+    <div class="secblack">
+        <div class="infobox">
+            <h4>ABOUT US</h4>
+            <div class="lbox">
+                <h3>215 x 90px</h3>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In fringilla massa ut nisi
+                ullamcorper pellentesque. Quisque non luctus sem. Nullam non magna vel nisi posuere bibendum
+                vitae sed dui.
+            </p>
+            <p class="size2 size3">Read more &#8667;</p>
+        </div>
+        <div class="infobox1">
+            <h4>CONTACT US</h4>
+            <form>
+                <input type="text" placeholder="Name" class="infoplace place">
+                <input type="text" placeholder="Email" class="infoplace place">
+                <input type="text" placeholder="Subject" class="infoplace place">
+                <input type="text" placeholder="Message" class="infoplace">
+            </form>
+            <button class="button1"><b>SUBMIT</b></button>
+        </div>
+        <div class="infobox1">
+            <h4>LATEST BLOG POSTS</h4>
+            <p><b>Post Title</b><br>Admin, domainname.com<br>Friday, 6th April 2000</p>
+            <p>Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet.</p>
+            <p class="size2 size3">Read more &#8667;</p>
+            <p><br><br><b>Post Title</b><br>Admin, domainname.com<br>Friday, 6th April 2000
+            <p>Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet.</p>
+            <p class="size2 size3">Read more &#8667;</p>
+        </div>
+        <div class="infobox1">
+            <h4>QUICK LINKS</h4>
+            <ul class="navbar3" >
+                <li><a href="#">Lorem ipsum dolorr sit</a></li>
+                <li><a href="#">Amet consectetur</a></li>
+                <li><a href="#">Praesent vel sem id</a></li>
+                <li><a href="#">Curabitur hendrerit est</a></li>
+                <li><a href="#">Aliquam eget erat nec sapien</a></li>
+                <li><a href="#">Cras id augue nunc</a></li>
+                <li><a href="#">In nec justo non</a></li>
+                <li><a href="#">Vivamus mollis enim ut</a></li>
+                <li><a href="#">Curabitur hendrerit est</a></li>
+                <li><a href="#">Sed a nulla urna</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <p>Copyright © 2013 Domain Name - All Rights Reserved</p>
+        <p class="foot">Temaplate by OS Templates</p>
+    </footer>
+</div>
+
+</body>
+</html>
