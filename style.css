@@ -237,6 +237,9 @@ button {
     padding-left: 20px;
     border-left: 10px solid #0099ff;
 }
+div.advertis h1 {
+    margin-bottom: 0;
+}
 .button2 {
     float: right;
     height: 60px;
